@@ -47,8 +47,9 @@ const RootNav = createBottomTabNavigator(
       // },
     }),
     tabBarOptions: {
-      activeTintColor: 'tomato',
-      inactiveTintColor: 'gray',
+      activeTintColor: 'white',
+      activeBackgroundColor: '#EA2027',//'#d35400',
+      inactiveTintColor: 'black',
     },
   }
 );
